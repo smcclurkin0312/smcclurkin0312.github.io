@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CS-499: ePortfolio Stephanie S. McClurkin
+title: CS-499 ePortfolio Stephanie S. McClurkin
 ---
 
 # Stephanie McClurkin | CS-499 | SNHU | Jan-Mar 2025
