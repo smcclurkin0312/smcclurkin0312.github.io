@@ -64,13 +64,58 @@ The screenshot above shows how I improved the way user authentication data is ha
 
 Additionally, I updated the app to API level 35, which ensures that it follows Google’s latest security standards. This update includes stricter permission handling, stronger encryption policies, and better data protection. By implementing these enhancements, I demonstrated my ability to develop software with a security mindset, anticipate potential vulnerabilities, and design features that help protect user data, fully satisfying the fifth course outcome.
 
-### Conclusion
-
-This enhancement successfully meets the first, fourth, and fifth course outcomes by improving documentation and readability for better collaboration, following modern industry standards for maintainability, and strengthening security practices with Kotlin’s built-in protections. By transitioning from Java to Kotlin and applying these best practices, I enhanced the overall efficiency, security, and long-term viability of my weight-tracking application.
+---
 
 **Enhanced Project Code (Enhancement 3 Branch):**  
 [View Updated Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp/tree/enhancement3)
 
+---
+
+<h2 style="text-align: center;">Enhancement 2: Predictive Weight Trend Algorithm (Algorithms & Data Structures)</h2>
+
+The second major enhancement I made to my weight-tracking app was implementing a predictive weight trend algorithm to analyze past weight entries and estimate future weight trends. The original version of the app only allowed users to log their weight manually, without providing any insight into their progress over time. To improve this, I created an algorithm that calculates weekly weight changes and predicts future weight trends based on the user’s recorded data. These predictions are displayed in a dropdown menu, where users can select a timeframe of 1-4 weeks to estimate future weight changes.  
+
+Additionally, I integrated MPAndroidChart to create dynamic visualizations for the recorded weight data. Instead of just listing weight entries, the enhancement displays weight trends in a graph, helping users quickly recognize patterns in their weight fluctuations. Although I originally planned to display both recorded and predicted weight trends on the graph, technical constraints led me to keep only recorded data visualized, while predictions remain text-based in the dropdown menu.
+
+![Empty Weight Tracking Page (New User)](https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/new%20user%20empty%20weight%20screen.png?raw=true)
+
+The screenshot above shows the weight-tracking page before any entries are logged. The enhancement allows users to manually input past weight values, improving the accuracy of predictions.
+
+#### Course Outcome 2: Design, develop, and deliver professional-quality communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
+
+For this enhancement, I wanted to make sure that my implementation was not only functional but also well-documented and easy to follow. One way I did this was by improving code readability with structured comments and documentation, ensuring that future developers (or even my future self) could easily understand how the predictive weight trend feature works. I included clear comments in key areas, such as explaining how the algorithm processes past weight changes to predict future trends, how MPAndroidChart is used to visualize recorded weight trends, and how stored weight entries are retrieved and structured. This demonstrates my ability to write technically sound, professional-quality documentation that is clear and informative.
+
+Beyond ensuring my code, comments, and technical documentation were well-structured, I also focused on making sure the user-facing side of this enhancement was clear and intuitive. I improved multiple features to make the interface more intuitive for the user, such as the calendar you see in the screenshot below. Since the prediction results needed to be easy to interpret, I decided to integrate MPAndroidChart to visually display recorded weight trends instead of just listing numbers. The prediction results themselves are provided in the drop-down as text-based calculations. The graph dynamically plots weight data with a clear x-axis for time and y-axis for weight, allowing users to quickly recognize patterns in their weight trends. This enhancement improves the app’s usability by making weight trends and predictions easier to understand at a glance, aligning with best practices in professional software development.
+
+![Date Selection Calendar](https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/select%20a%20date%20calendar%20screenshot.png?raw=true)
+
+#### Course Outcome 3: Design and evaluate computing solutions that solve a given problem using algorithmic principles and data structures.
+
+The predictive weight trend algorithm is the centerpiece of this enhancement and it demonstrates my ability to design and evaluate computing solutions using algorithmic principles and structured data. This algorithm takes a user’s past weight entries and estimates future trends based on their recorded data. The prediction is based on averaging weight changes over time, which helps account for short-term fluctuations and provides a realistic trend line instead of a simple projection. To make sure the algorithm was efficient and scalable, I used sorted lists and dynamic data structures so that new weight entries could be processed quickly, without extra recalculations. This makes sure that calculations are performed only when necessary, which helps to keep the app responsive. The prediction logic focuses on actual progress rather than static assumptions, making the results both accurate and useful for the user. This demonstrates my ability to apply structured data principles to build efficient, real-world computing solutions.
+
+The screenshot below show how MPAndroidChart is used to visually display recorded weight history. The prediction results, however, are presented as text-based calculations in the dropdown menu, allowing users to estimate their future weight based on their recorded data.
+
+![Algorithm Implementation - Part 1](https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/Code%20Screenshot%20Enhancement2%20Course%20Outcome%203%20P1.png?raw=true)
+
+By structuring the algorithm this way, I helped make sure that users receive realistic, data-driven predictions that adjust dynamically as they log new weight entries. Once the algorithm was in place, I checked its accuracy by testing it against both steady and fluctuating weight trends to make sure the predictions made sense and weren’t too rigid or too extreme. This testing process demonstrates my ability to analyze and refine algorithmic solutions to ensure they provide reliable results.
+I also focused on making sure users could easily interpret their recorded weight trends by integrating MPAndroidChart to visually display their historical weight data. Instead of relying on plain numbers, users can now see a clear, interactive graph that plots both their historical weight data. This helps them quickly recognize patterns and adjust their goals accordingly. The first screenshot below shows how users are provided with a text prediction of their anticipated weight loss. The second screenshot shows the results of this prediction at 1 week, and how MPAndroidChart is used to visually display recorded weight data. This graph-based visualization ensures that users can see trends at a glance, making this feature functional and user-friendly.
+
+![Algorithm Implementation - Part 2](https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/Code%20Screenshot%20Enhancement2%20Course%20Outcome%203%20P2.png?raw=true)
+
+![Weight Prediction Dropdown & Graph](https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/estimated%20weight%20prediction%20and%20current%20weight%20graph.png?raw=true)
+
+#### Course Outcome 4: Demonstrate an ability to use innovative techniques, skills, and tools in computing practices to implement computing solutions that accomplish industry-specific goals.
+
+One of the biggest improvements in this enhancement was integrating MPAndroidChart to create a dynamic weight trend visualization. Instead of just displaying numbers in a list, this enhancement applies modern data visualization techniques to show recorded weight entries as a visual graph, making it easier for users to track their past progress over time. MPAndroidChart is commonly used in mobile apps for analytics and trend tracking, so adding it to my project directly demonstrates my ability to integrate professional-grade tools that align with industry expectations for mobile applications handling user data.
+
+Another way I demonstrated industry-relevant skills was by adding manual date selection for weight entries. Instead of restricting users to logging their weight for the current date, they can now enter past weights, ensuring that the prediction model is working with the most complete dataset possible. This feature improves the accuracy and reliability of the predictions by allowing the algorithm to analyze a broader, user-controlled data range. It also promotes better data integrity, since users can correct mistakes or fill in missing entries, which is an important part of maintaining clean, structured datasets in professional applications. You can see an example of the filled out weight entry page in the screenshot below. By implementing these enhancements, I showed that I can use modern computing tools and best practices to improve both functionality and usability in mobile app development.
+
+![Filled-Out Weight Page (Recorded Data Visualization)](https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/filledout%20weight%20page%20screenshot.png?raw=true)
+
+---
+
+**Enhancement Two Project Code (Enhancement 3 Branch):**  
+[View Updated Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp/tree/enhancement3)
 
 ---
 
