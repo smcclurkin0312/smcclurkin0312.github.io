@@ -3,9 +3,6 @@ layout: default
 title: CS-499 ePortfolio Stephanie S. McClurkin
 ---
 
-# Stephanie McClurkin | CS-499 | SNHU | Jan-Mar 2025
-
-## Professional Self-Assessment
 <h2 style="text-align: center;">Professional Self-Assessment</h2>
 
    My name is Stephanie McClurkin, and I have spent the last few years studying for my Bachelor of Science in Computer Science at Southern New Hampshire University. Unlike many in the field, I didn’t start with a programming background. My professional experience has been in healthcare, where I’ve worked as a CNA and currently work in dietary services. Despite always having an interest in technology, I was initially discouraged from pursuing it as a career. However, after years of working in retail and healthcare, my employer provided me with the opportunity to earn a degree, and I took the chance to study something I was truly interested in.
@@ -26,10 +23,20 @@ title: CS-499 ePortfolio Stephanie S. McClurkin
 
 ---
 
-## Enhancement Narratives
-- [Enhancement 1: Software Design & Engineering](Enhancement_1.pdf)
-- [Enhancement 2: Algorithms & Data Structures](Enhancement_2.pdf)
-- [Enhancement 3: Databases](Enhancement_3.pdf)
+---
+<h2 style="text-align: center;">Original Project Overview: CS-360 Weight Tracking App</h2>
+
+My original weight-tracking application was developed during CS-360: Mobile Architecture & Programming. It was designed as a simple mobile app where users could log their weight daily, set personal weight goals, and track progress over time. The app used an SQLite database to store weight entries and displayed them in a RecyclerView list. It featured basic UI elements and SMS notifications to alert the user of basic milestones. 
+
+While functional, the original version of the app had several limitations, including the lack of predictive analytics, cloud storage, and modern Android development practices. These limitations became the focus of my three enhancements, where I worked on code modernization, algorithmic improvements, and database integration to make the improve the app. You can view my original code in the main branch located at the link below.
+
+**Original CS-360 Project Code (Main Branch):**  
+**[View Original Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp)**  
+
+---
+
+<h2 style="text-align: center;">Enhancement Narratives</h2>
+
 
 ---
 
