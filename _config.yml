@@ -2,3 +2,5 @@ remote_theme: pages-themes/time-machine@v0.2.0
 title: "Stephanie McClurkin's CS-499 ePortfolio"
 description: "My Computer Science Capstone Project & Enhancements"
 show_downloads: false
+
+include: ["assets/css/style.css"]
