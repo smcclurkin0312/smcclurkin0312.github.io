@@ -5,7 +5,7 @@ title: Stephanie McClurkin | CS-499 Portfolio
 
 ## CS-499 SNHU | Jan-Mar 2025 Computer Science Capstone Project
 
-## Professional Self-Assessment
+<h2 style="text-align: center;">Professional Self-Assessment</h2>
 My name is Stephanie McClurkin, and I have spent the last few years studying for my Bachelor of Science in Computer Science at Southern New Hampshire University. Unlike many in the field, I didn’t start with a programming background. My professional experience has been in healthcare, where I’ve worked as a CNA and currently work in dietary services. Despite always having an interest in technology, I was initially discouraged from pursuing it as a career. However, after years of working in retail and healthcare, my employer provided me with the opportunity to earn a degree, and I took the chance to study something I was truly interested in.
 
 I originally enrolled in Information Technology but quickly realized I was drawn to programming. My first coding course, IT-140 Intro to Scripting, was a big turning point. It reminded me of how much I enjoyed building small websites and interactive projects as a kid, and I knew I had found the right path. I switched to Computer Science and embraced the challenge of learning something completely new, in love with the creative potential of programming. During my coursework, I’ve explored software engineering, data structures, databases, and cybersecurity, gaining hands-on experience and discovering my strengths. While I didn’t take a traditional path into this field, I feel confident in my adaptability and problem-solving abilities - and my technical skills continue to grow each day. This capstone project and ePortfolio have helped me reflect on my progress and reinforced my professional goals.
