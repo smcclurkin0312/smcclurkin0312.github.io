@@ -83,7 +83,7 @@ Additionally, I updated the app to API level 35, which ensures that it follows G
 
 ---
 
-Read the complete narrative for my Enhancement One upgrade [here](CS499%20Enhancement%20One%20PDF%20smcclurkin.pdf).
+**Read the complete narrative for my Enhancement One upgrade [here](CS499%20Enhancement%20One%20PDF%20smcclurkin.pdf).**
 
 **Enhancement One Project Code (Located in the Enhancement 3 Branch):**  
 [View Updated Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp/tree/enhancement3)
@@ -145,7 +145,7 @@ Another way I demonstrated industry-relevant skills was by adding manual date se
 
 ---
 
-Read the complete narrative for my Enhancement Two upgrade [here](CS499%20Enhancement%20Two%20PDF%20smcclurkin.pdf).
+**Read the complete narrative for my Enhancement Two upgrade [here](CS499%20Enhancement%20Two%20PDF%20smcclurkin.pdf).**
 
 **Enhancement Two Project Code (Located in the Enhancement 3 Branch):**  
 [View Updated Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp/tree/enhancement3)
@@ -182,7 +182,7 @@ By adding cloud authentication, structured database storage, and security rules,
 
 ---
 
-Read the complete narrative for my Enhancement Three upgrade [here](CS499%20Enhancement%20Three%20PDF%20smcclurkin.pdf).
+**Read the complete narrative for my Enhancement Three upgrade [here](CS499%20Enhancement%20Three%20PDF%20smcclurkin.pdf).**
 
 **Enhancement Three Project Code (Located in the Enhancement 3 Branch):**  
 [View Updated Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp/tree/enhancement3)
