@@ -23,18 +23,18 @@ title: CS-499 ePortfolio Stephanie S. McClurkin
 
 ---
 
-<h2 style="text-align: center;">Original Project Overview: CS-360 Weight Tracking App</h2>
+<h2 style="text-align: center;">Original Project: CS-360 Weight Tracking App</h2>
 
 My original weight-tracking application was developed during CS-360: Mobile Architecture & Programming. It was designed as a simple mobile app where users could log their weight daily, set personal weight goals, and track progress over time. The app used an SQLite database to store weight entries and displayed them in a RecyclerView list. It featured basic UI elements and SMS notifications to alert the user of basic milestones. 
 
 While functional, the original version of the app had several limitations, including the lack of predictive analytics, cloud storage, and modern Android development practices. These limitations became the focus of my three enhancements, where I worked on code modernization, algorithmic improvements, and database integration to make the improve the app. You can view my original code in the main branch located at the link below.
 
-**Original CS-360 Project Code (Main Branch):**  
-**[View Original Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp)**  
+**Original CS-360 Project Code (Located in Main Branch):**  
+**[View Original Project Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp)**  
 
 ---
 
-<h2 style="text-align: center;">Enhancement 1: Software Design & Engineering (Java to Kotlin Conversion)</h2>
+<h2 style="text-align: center;">Enhancement 1: Software Design & Engineering</h2>
 
 The first major enhancement I made to my weight-tracking app was converting the entire codebase from Java to Kotlin. This transition was necessary because Kotlin has become the preferred language for Android development due to its improved efficiency, null safety, and more concise syntax. By making this change, I modernized the project to align with industry best practices, making the code more maintainable, reducing boilerplate, and improving security. The conversion also allowed me to take advantage of Kotlin's built-in features, such as automatic resource management and null safety, to eliminate potential crashes and memory leaks. These improvements made the app more stable, scalable, and easier for future developers to work with.
 
@@ -66,16 +66,16 @@ Additionally, I updated the app to API level 35, which ensures that it follows G
 
 ---
 
-**Enhanced Project Code (Enhancement 3 Branch):**  
+**Enhancement One Project Code (Located in the Enhancement 3 Branch):**  
 [View Updated Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp/tree/enhancement3)
 
 ---
 
-<h2 style="text-align: center;">Enhancement 2: Predictive Weight Trend Algorithm (Algorithms & Data Structures)</h2>
+<h2 style="text-align: center;">Enhancement 2: Algorithms & Data Structures</h2>
 
 The second major enhancement I made to my weight-tracking app was implementing a predictive weight trend algorithm to analyze past weight entries and estimate future weight trends. The original version of the app only allowed users to log their weight manually, without providing any insight into their progress over time. To improve this, I created an algorithm that calculates weekly weight changes and predicts future weight trends based on the user’s recorded data. These predictions are displayed in a dropdown menu, where users can select a timeframe of 1-4 weeks to estimate future weight changes.  
 
-Additionally, I integrated MPAndroidChart to create dynamic visualizations for the recorded weight data. Instead of just listing weight entries, the enhancement displays weight trends in a graph, helping users quickly recognize patterns in their weight fluctuations. Although I originally planned to display both recorded and predicted weight trends on the graph, technical constraints led me to keep only recorded data visualized, while predictions remain text-based in the dropdown menu.
+Next, I integrated MPAndroidChart to create dynamic visualizations for the recorded weight data. Instead of just listing weight entries, the enhancement displays weight trends in a graph, helping users quickly recognize patterns in their weight fluctuations. Although I originally planned to display both recorded and predicted weight trends on the graph, technical constraints led me to keep only recorded data visualized, while predictions remain text-based in the dropdown menu.
 
 ![Empty Weight Tracking Page (New User)](https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/new%20user%20empty%20weight%20screen.png?raw=true)
 
@@ -102,7 +102,7 @@ I also focused on making sure users could easily interpret their recorded weight
 
 ![Algorithm Implementation - Part 2](https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/Code%20Screenshot%20Enhancement2%20Course%20Outcome%203%20P2.png?raw=true)
 
-![Weight Prediction Dropdown & Graph](https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/estimated%20weight%20prediction%20and%20current%20weight%20graph.png?raw=true)
+<img src="https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/estimated%20weight%20prediction%20and%20current%20weight%20graph.png?raw=true" alt="Weight Prediction Dropdown & Graph" width="600">
 
 #### Course Outcome 4: Demonstrate an ability to use innovative techniques, skills, and tools in computing practices to implement computing solutions that accomplish industry-specific goals.
 
@@ -114,7 +114,7 @@ Another way I demonstrated industry-relevant skills was by adding manual date se
 
 ---
 
-**Enhancement Two Project Code (Enhancement 3 Branch):**  
+**Enhancement Two Project Code (Located in the Enhancement 3 Branch):**  
 [View Updated Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp/tree/enhancement3)
 
 ---
