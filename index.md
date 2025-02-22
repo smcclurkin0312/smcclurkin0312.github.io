@@ -77,7 +77,9 @@ The second major enhancement I made to my weight-tracking app was implementing a
 
 Next, I integrated MPAndroidChart to create dynamic visualizations for the recorded weight data. Instead of just listing weight entries, the enhancement displays weight trends in a graph, helping users quickly recognize patterns in their weight fluctuations. Although I originally planned to display both recorded and predicted weight trends on the graph, technical constraints led me to keep only recorded data visualized, while predictions remain text-based in the dropdown menu.
 
-![Empty Weight Tracking Page (New User)](https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/new%20user%20empty%20weight%20screen.png?raw=true)
+<div style="text-align: center;">
+    <img src="https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/new%20user%20empty%20weight%20screen.png?raw=true" alt="Empty Weight Tracking Page (New User)" height="500">
+</div>
 
 The screenshot above shows the weight-tracking page before any entries are logged. The enhancement allows users to manually input past weight values, improving the accuracy of predictions.
 
@@ -87,7 +89,9 @@ For this enhancement, I wanted to make sure that my implementation was not only 
 
 Beyond ensuring my code, comments, and technical documentation were well-structured, I also focused on making sure the user-facing side of this enhancement was clear and intuitive. I improved multiple features to make the interface more intuitive for the user, such as the calendar you see in the screenshot below. Since the prediction results needed to be easy to interpret, I decided to integrate MPAndroidChart to visually display recorded weight trends instead of just listing numbers. The prediction results themselves are provided in the drop-down as text-based calculations. The graph dynamically plots weight data with a clear x-axis for time and y-axis for weight, allowing users to quickly recognize patterns in their weight trends. This enhancement improves the app’s usability by making weight trends and predictions easier to understand at a glance, aligning with best practices in professional software development.
 
-![Date Selection Calendar](https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/select%20a%20date%20calendar%20screenshot.png?raw=true)
+<div style="text-align: center;">
+    <img src="https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/select%20a%20date%20calendar%20screenshot.png?raw=true" alt="Date Selection Calendar" height="500">
+</div>
 
 #### Course Outcome 3: Design and evaluate computing solutions that solve a given problem using algorithmic principles and data structures.
 
@@ -95,13 +99,15 @@ The predictive weight trend algorithm is the centerpiece of this enhancement and
 
 The screenshot below show how MPAndroidChart is used to visually display recorded weight history. The prediction results, however, are presented as text-based calculations in the dropdown menu, allowing users to estimate their future weight based on their recorded data.
 
-![Algorithm Implementation - Part 1](https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/Code%20Screenshot%20Enhancement2%20Course%20Outcome%203%20P1.png?raw=true)
+<div style="text-align: center;">
+    <img src="https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/Code%20Screenshot%20Enhancement2%20Course%20Outcome%203%20P1.png?raw=true" alt="Algorithm Implementation - Part 1" height="200">
+</div>
 
 By structuring the algorithm this way, I helped make sure that users receive realistic, data-driven predictions that adjust dynamically as they log new weight entries. Once the algorithm was in place, I checked its accuracy by testing it against both steady and fluctuating weight trends to make sure the predictions made sense and weren’t too rigid or too extreme. This testing process demonstrates my ability to analyze and refine algorithmic solutions to ensure they provide reliable results.
 I also focused on making sure users could easily interpret their recorded weight trends by integrating MPAndroidChart to visually display their historical weight data. Instead of relying on plain numbers, users can now see a clear, interactive graph that plots both their historical weight data. This helps them quickly recognize patterns and adjust their goals accordingly. The first screenshot below shows how users are provided with a text prediction of their anticipated weight loss. The second screenshot shows the results of this prediction at 1 week, and how MPAndroidChart is used to visually display recorded weight data. This graph-based visualization ensures that users can see trends at a glance, making this feature functional and user-friendly.
 
 <div style="text-align: center;">
-    <img src="https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/Code%20Screenshot%20Enhancement2%20Course%20Outcome%203%20P2.png?raw=true" alt="Algorithm Implementation - Part 2" height="300">
+    <img src="https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/Code%20Screenshot%20Enhancement2%20Course%20Outcome%203%20P2.png?raw=true" alt="Algorithm Implementation - Part 2" height="200">
 </div>
 
 <div style="text-align: center;">
@@ -114,8 +120,9 @@ One of the biggest improvements in this enhancement was integrating MPAndroidCha
 
 Another way I demonstrated industry-relevant skills was by adding manual date selection for weight entries. Instead of restricting users to logging their weight for the current date, they can now enter past weights, ensuring that the prediction model is working with the most complete dataset possible. This feature improves the accuracy and reliability of the predictions by allowing the algorithm to analyze a broader, user-controlled data range. It also promotes better data integrity, since users can correct mistakes or fill in missing entries, which is an important part of maintaining clean, structured datasets in professional applications. You can see an example of the filled out weight entry page in the screenshot below. By implementing these enhancements, I showed that I can use modern computing tools and best practices to improve both functionality and usability in mobile app development.
 
-![Filled-Out Weight Page (Recorded Data Visualization)](https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/filledout%20weight%20page%20screenshot.png?raw=true)
-
+<div style="text-align: center;">
+    <img src="https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/filledout%20weight%20page%20screenshot.png?raw=true" alt="Filled-Out Weight Page (Recorded Data Visualization)" height="500">
+</div>
 ---
 
 **Enhancement Two Project Code (Located in the Enhancement 3 Branch):**  
