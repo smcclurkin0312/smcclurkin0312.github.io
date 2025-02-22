@@ -1,0 +1,14 @@
+/* Reduce the huge title size */
+h1 {
+    font-size: 28px !important;
+}
+
+/* Center-align the black banner text */
+.site-header {
+    text-align: center !important;
+}
+
+/* Center the GitHub repository banner text */
+.github-repo {
+    text-align: center !important;
+}
