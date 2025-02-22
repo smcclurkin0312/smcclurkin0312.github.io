@@ -83,6 +83,8 @@ Additionally, I updated the app to API level 35, which ensures that it follows G
 
 ---
 
+Read the complete narrative for my Enhancement One upgrade [here](CS499%20Enhancement%20One%20PDF%20smcclurkin.pdf).
+
 **Enhancement One Project Code (Located in the Enhancement 3 Branch):**  
 [View Updated Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp/tree/enhancement3)
 
@@ -143,6 +145,8 @@ Another way I demonstrated industry-relevant skills was by adding manual date se
 
 ---
 
+Read the complete narrative for my Enhancement Two upgrade [here](CS499%20Enhancement%20Two%20PDF%20smcclurkin.pdf).
+
 **Enhancement Two Project Code (Located in the Enhancement 3 Branch):**  
 [View Updated Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp/tree/enhancement3)
 
@@ -177,6 +181,8 @@ The screenshot below showcases how user accounts and their respective weight ent
 By adding cloud authentication, structured database storage, and security rules, I significantly improved data privacy and protection in my app. This enhancement directly supports the fifth course outcome by demonstrating my ability to identify potential security risks, implement authentication safeguards, and design a system that prioritizes user privacy and data security.
 
 ---
+
+Read the complete narrative for my Enhancement Three upgrade [here](CS499%20Enhancement%20Three%20PDF%20smcclurkin.pdf).
 
 **Enhancement Three Project Code (Located in the Enhancement 3 Branch):**  
 [View Updated Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp/tree/enhancement3)
