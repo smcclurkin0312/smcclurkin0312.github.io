@@ -34,6 +34,23 @@ While functional, the original version of the app had several limitations, inclu
 
 ---
 
+<h2 style="text-align: center;">Code Review Videos</h2>
+
+Before beginning my enhancements, I performed a code review of my original CS-360 Weight Tracking App to analyze its structure, identify areas to improve, and outline my planned enhancements. The first video provides a detailed walkthrough of the original project before enhancements, while the second video offers a progress update as the enhancements were being implemented.
+
+#### Initial Code Review (Module 2)
+This video provides an overview of my original CS-360 Weight Tracking App before enhancements. I discuss the existing functionality, identify weaknesses in the codebase, and outline my planned improvements across software design and engineering, algorithms and data structures, and databases.
+
+**[Original Full Code Review (Module 2)](https://youtu.be/03QZ_rMgUpE)**  
+
+#### Enhancement Progress Update (Module 5)
+
+In this video, I provide an update on my progress as I worked through my enhancements. This includes discussing the challenges I encountered and how I adjusted my approach as I advanced.
+
+**[Update on Enhancement Progress (Module 5)](https://youtu.be/K8oVMnNe7N0)**  
+
+---
+
 <h2 style="text-align: center;">Enhancement 1: Software Design & Engineering</h2>
 
 The first major enhancement I made to my weight-tracking app was converting the entire codebase from Java to Kotlin. This transition was necessary because Kotlin has become the preferred language for Android development due to its improved efficiency, null safety, and more concise syntax. By making this change, I modernized the project to align with industry best practices, making the code more maintainable, reducing boilerplate, and improving security. The conversion also allowed me to take advantage of Kotlin's built-in features, such as automatic resource management and null safety, to eliminate potential crashes and memory leaks. These improvements made the app more stable, scalable, and easier for future developers to work with.
@@ -63,23 +80,6 @@ Security is a critical aspect of software development, and I made several improv
 The screenshot above shows how I improved the way user authentication data is handled. The original Java version required manual null checks, meaning that if I forgot to check for null, the app could crash. Kotlin, however, provides built-in null safety, allowing the app to check automatically. If authentication data is missing, Kotlin defaults to a safe value instead of crashing. This change improves both security and app stability by reducing the chances of unexpected failures.
 
 Additionally, I updated the app to API level 35, which ensures that it follows Google’s latest security standards. This update includes stricter permission handling, stronger encryption policies, and better data protection. By implementing these enhancements, I demonstrated my ability to develop software with a security mindset, anticipate potential vulnerabilities, and design features that help protect user data, fully satisfying the fifth course outcome.
-
----
-
-<h2 style="text-align: center;">Code Review Videos</h2>
-
-Before beginning my enhancements, I performed a code review of my original CS-360 Weight Tracking App to analyze its structure, identify areas to improve, and outline my planned enhancements. The first video provides a detailed walkthrough of the original project before enhancements, while the second video offers a progress update as the enhancements were being implemented.
-
-#### Initial Code Review (Module 2)
-This video provides an overview of my original CS-360 Weight Tracking App before enhancements. I discuss the existing functionality, identify weaknesses in the codebase, and outline my planned improvements across software design and engineering, algorithms and data structures, and databases.
-
-**[Original Full Code Review (Module 2)](https://youtu.be/03QZ_rMgUpE)**  
-
-#### Enhancement Progress Update (Module 5)
-
-In this video, I provide an update on my progress as I worked through my enhancements. This includes discussing the challenges I encountered and how I adjusted my approach as I advanced.
-
-**[Update on Enhancement Progress (Module 5)](https://youtu.be/K8oVMnNe7N0)**  
 
 ---
 
