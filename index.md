@@ -66,6 +66,23 @@ Additionally, I updated the app to API level 35, which ensures that it follows G
 
 ---
 
+<h2 style="text-align: center;">Code Review Videos</h2>
+
+Before beginning my enhancements, I performed a code review of my original CS-360 Weight Tracking App to analyze its structure, identify areas to improve, and outline my planned enhancements. The first video provides a detailed walkthrough of the original project before enhancements, while the second video offers a progress update as the enhancements were being implemented.
+
+#### Initial Code Review (Module 2)
+This video provides an overview of my original CS-360 Weight Tracking App before enhancements. I discuss the existing functionality, identify weaknesses in the codebase, and outline my planned improvements across software design and engineering, algorithms and data structures, and databases.
+
+**[Original Full Code Review (Module 2)](https://youtu.be/03QZ_rMgUpE)**  
+
+#### Enhancement Progress Update (Module 5)
+
+In this video, I provide an update on my progress as I worked through my enhancements. This includes discussing the challenges I encountered and how I adjusted my approach as I advanced.
+
+**[Update on Enhancement Progress (Module 5)](https://youtu.be/K8oVMnNe7N0)**  
+
+---
+
 **Enhancement One Project Code (Located in the Enhancement 3 Branch):**  
 [View Updated Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp/tree/enhancement3)
 
@@ -123,6 +140,7 @@ Another way I demonstrated industry-relevant skills was by adding manual date se
 <div style="text-align: center;">
     <img src="https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/filledout%20weight%20page%20screenshot.png?raw=true" alt="Filled-Out Weight Page (Recorded Data Visualization)" height="500">
 </div>
+
 ---
 
 **Enhancement Two Project Code (Located in the Enhancement 3 Branch):**  
@@ -130,5 +148,40 @@ Another way I demonstrated industry-relevant skills was by adding manual date se
 
 ---
 
-## Project Code
+<h2 style="text-align: center;">Enhancement 3: Databases</h2>
+
+The third and final enhancement I made to my weight-tracking app was integrating Firebase Firestore and Firebase Authentication to replace the original SQLite local storage system. The original version stored all user weight entries locally, meaning there was no cloud backup, no cross-device accessibility, and no authentication system to protect user data. If users switched devices, their progress was lost, and there was no way to recover or sync data. To address these limitations, I implemented Firebase Authentication, ensuring users have secure accounts tied to their weight history, and migrated the database to Firestore, a cloud-based NoSQL database that enables real-time data synchronization. Additionally, I added import/export functionality, giving users more control over their data by allowing them to back up and restore weight entries as needed. These improvements significantly enhanced data security, accessibility, and scalability, making the app more reliable and user-friendly.
+
+#### Course Outcome 2: Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
+
+For this enhancement, I wanted to make sure that my implementation was not just functional but also well-documented and easy to follow. Since Firebase is more complex than local storage, I knew I needed to document things carefully so future developers (or even my future self) could easily understand how everything works. To do this, I added numerous comments throughout my code, explaining how user authentication is handled, how weight data is stored, and how data syncs between Firebase and the local SQLite database. This further satisfies the second course outcome. Beyond making the code easier to understand for the developer, I also focused on making things more intuitive for the user. One way I did this was by improving error messages and feedback notifications. Before, if something went wrong, users might not know why. Now, the user will receive an error message letting them know what happened and how to proceed. By improving both technical documentation and user communication, I made this enhancement easier to maintain and more user-friendly. The code comments make Firebase integration much simpler to work with, and the error messages help users navigate the app with ease. These efforts directly support the second course outcome by demonstrating my ability to write clear documentation, communicate technical processes effectively, and improve the overall user experience.
+
+#### Course Outcome 4: Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for implementing solutions that deliver value and accomplish industry-specific goals.
+
+This enhancement took my weight-tracking app from a basic local-storage application to a cloud-integrated solution, making it more reliable and scalable. Instead of users being stuck with data saved only on their device, they can now log in securely with Firebase authentication and access their weight history from any device. Moving to cloud storage shows that I can work with industry-standard tools to improve both functionality and user experience, satisfying the fourth course outcome. By successfully integrating Firestore and Firebase authentication, I demonstrated my ability to work with different database architectures and build scalable, cloud-based solutions.
+
+Another major improvement was adding import/export functionality, giving users the ability to back up and restore their weight data. Before this, there was no way to recover lost data or transfer weight entries between devices. Now, users have full control over their progress, which is an expected feature in most professional applications. This update shows that I can design features that align with user needs while following best practices, further highlighting my ability to deliver modern solutions that meet industry-specific goals. This enhancement directly supports the fourth course outcome by showing that I can use innovative tools and computing techniques to create practical, scalable solutions that add real value to users.
+
+
+#### Course Outcome 5: Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
+
+Security was a major focus of this enhancement. Before this update, all user data was stored locally on the device, meaning anyone with access to the phone could view or modify weight entries. The login system wasn’t very secure, and there was no way to protect or recover user data. To fix this, I implemented Firebase authentication so that users must log in to access their weight history. This greatly increased the security of the application and its data, further promoting the fifth course outcome. Beyond improving the login process, Firestore security rules were utilized to protect user data from unauthorized access. These rules ensure that only users can read and write their own data, preventing others from accessing or tampering with their weight history. The screenshot below demonstrates how these rules are implemented.
+
+<div style="text-align: center;"> <img src="https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/firestore%20screenshot%20of%20the%20security%20rules.png?raw=true" alt="Firestore Security Rules" height="500"> </div>
+
+In addition to authentication security, Firestore provides structured storage for user weight data. The database organizes weight records under individual user accounts, ensuring that each user's data is isolated and accessible only to them. This setup enhances both security and scalability, making it easier to retrieve, update, and protect weight history records.
+
+The screenshot below showcases how user accounts and their respective weight entries are structured in Firestore.
+<div style="text-align: center;"> <img src="https://github.com/smcclurkin0312/smcclurkin0312.github.io/blob/main/assets/images/firestore%20screenshot%20test%20users%20and%20test%20weights.png?raw=true" alt="Firestore Test Users & Weight Entries" height="400"> </div>
+
+By adding cloud authentication, structured database storage, and security rules, I significantly improved data privacy and protection in my app. This enhancement directly supports the fifth course outcome by demonstrating my ability to identify potential security risks, implement authentication safeguards, and design a system that prioritizes user privacy and data security.
+
+---
+
+**Enhancement Three Project Code (Located in the Enhancement 3 Branch):**  
+[View Updated Code on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp/tree/enhancement3)
+
+---
+
+## Overall Project Code
 **[View My CS-499 Weight Tracking App on GitHub](https://github.com/smcclurkin0312/CS499weighttrackingapp)**
